@@ -115,8 +115,8 @@ int print_int(va_list types, char buffer[],
 {
 	int i = BUFF_SIZE - 2;
 	int is_negative = 0;
-	long int n = va_arg(types, long int)
-		unsigned long int num;
+	long int n = va_arg(types, long int);
+	unsigned long int num;
 
 	n = convert_size_number(n, size);
 
